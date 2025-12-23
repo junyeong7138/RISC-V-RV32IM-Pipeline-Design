@@ -1,0 +1,92 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "ASYNC_RAM_DP_WBE": [
+        "ASYNC_RAM_DP_WBE",
+        "TV9z4",
+        "module",
+        9
+    ],
+    "dualport_mem_synch_rw_dualclk": [
+        "dualport_mem_synch_rw_dualclk",
+        "hk5wD",
+        "module",
+        10
+    ],
+    "tbman_wrap": [
+        "tbman_wrap",
+        "Ln2ne",
+        "module",
+        11
+    ],
+    "hazard_unit": [
+        "hazard_unit",
+        "g5vFt",
+        "module",
+        12
+    ],
+    "controller": [
+        "controller",
+        "KBY0m",
+        "module",
+        13
+    ],
+    "Addr_Decoder": [
+        "Addr_Decoder",
+        "gMGVA",
+        "module",
+        14
+    ],
+    "data_mux": [
+        "data_mux",
+        "Dxf2Z",
+        "module",
+        15
+    ],
+    "cla_8bit": [
+        "cla_8bit",
+        "c8pr1",
+        "module",
+        2
+    ],
+    "full_adder": [
+        "full_adder",
+        "BEdzp",
+        "module",
+        3
+    ],
+    "mux3": [
+        "mux3",
+        "rsgQu",
+        "module",
+        6
+    ],
+    "be_logic": [
+        "be_logic",
+        "LwJfg",
+        "module",
+        5
+    ],
+    "csr": [
+        "csr",
+        "cNThd",
+        "module",
+        16
+    ],
+    "c_tests_tb": [
+        "c_tests_tb",
+        "e7D59",
+        "module",
+        7
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        8
+    ]
+}

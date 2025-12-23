@@ -1,0 +1,94 @@
+Magic 271485
+Revision Verdi_S-2021.09-SP2-9
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 2056 890 150 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home1/xsse1/project/lab_cpu/week1x_final_project/hardware/33.RV32I_timer_tests/sim/func_sim_timer_dhrystone/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 4661.445881
+cursor 100.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 40
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home1/xsse1/project/lab_cpu/week1x_final_project/hardware/33.RV32I_timer_tests/sim/func_sim_timer_dhrystone/wave.fsdb"
+addSignal -h 15 /c_tests_tb/CPU/u_TimerCounter/clk
+addSignal -h 15 -holdScope reset
+addSignal -h 15 -holdScope CS_N
+addSignal -h 15 -holdScope WR_N
+addSignal -h 15 -holdScope Addr[11:0]
+addSignal -h 15 -holdScope RD_N
+addSignal -h 15 -holdScope DataIn[31:0]
+addSignal -h 15 -holdScope Intr
+addSignal -h 15 -holdScope DataOut[31:0]
+addGroup "G2"
+addSignal -h 15 /c_tests_tb/CPU/read_data_dmem[31:0]
+addSignal -h 15 -holdScope cs_timer_n
+addSignal -h 15 -holdScope read_data_timer[31:0]
+addSignal -h 15 -holdScope cs_tbman_n
+addSignal -h 15 -holdScope read_data_tbman[31:0]
+addSignal -h 15 -holdScope ReadData[31:0]
+addGroup "G3"
+addSignal -h 15 /c_tests_tb/CPU/icpu/Instr[31:0]
+addSignal -h 15 /c_tests_tb/CPU/icpu/i_datapath/PC[31:0]
+addSignal -h 15 -holdScope Instr_D[31:0]
+addSignal -h 15 -holdScope PC_D[31:0]
+addSignal -h 15 -holdScope Instr_E[31:0]
+addSignal -h 15 -holdScope PC_E[31:0]
+addSignal -h 15 -holdScope Instr_M[31:0]
+addGroup "G4"
+addSignal -h 15 /c_tests_tb/CPU/icpu/i_datapath/bef_SrcB_M[31:0]
+addSignal -h 15 -holdScope ALUResult_M[1:0]
+addSignal -h 15 -holdScope Instr_M[14:12]
+addSignal -h 15 -holdScope BE_WD[31:0]
+addSignal -h 15 -holdScope ByteEnable[3:0]
+addGroup "G5"
+addSignal -h 15 /c_tests_tb/CPU/icpu/i_datapath/StallF
+addSignal -h 15 -holdScope StallD
+addSignal -h 15 -holdScope FlushD
+addSignal -h 15 -holdScope FlushE
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope Instr_D[19:15]
+addSignal -h 15 -holdScope Instr_D[24:20]
+addSignal -h 15 -holdScope Instr_E[19:15]
+addSignal -h 15 -holdScope Instr_E[24:20]
+addGroup "G6"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+
