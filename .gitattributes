@@ -5,3 +5,5 @@ software/** linguist-vendored
 *.hex linguist-generated
 *.mif linguist-generated
 *.vh linguist-language=Verilog
+*.f linguist-language=Text
+*.bat linguist-detectable=false
