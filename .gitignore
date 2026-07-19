@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# VCS / Verdi simulation artifacts
+simv
+simv.daidir/
+csrc/
+*.fsdb
+*.vpd
+*.vcd
+ucli.key
+novas_dump.log
+novas.conf
+novas.rc
+VerdiLog/
+Verdi-UltraLog/
+verdiLog/
+vcs.log
+output.log
+*.wlf
+transcript
+
+# editor swap files
+*.swp
