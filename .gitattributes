@@ -1,0 +1,7 @@
+# Keep language stats focused on the RTL
+software/** linguist-vendored
+*.dump linguist-generated
+*.dump.* linguist-generated
+*.hex linguist-generated
+*.mif linguist-generated
+*.vh linguist-language=Verilog
